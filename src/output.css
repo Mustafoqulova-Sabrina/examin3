@@ -353,6 +353,15 @@
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
   }
+  .my-6 {
+    margin-block: calc(var(--spacing) * 6);
+  }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -566,8 +575,14 @@
   .w-\[200px\] {
     width: 200px;
   }
+  .w-\[210px\] {
+    width: 210px;
+  }
   .w-\[214px\] {
     width: 214px;
+  }
+  .w-\[220px\] {
+    width: 220px;
   }
   .w-\[225px\] {
     width: 225px;
@@ -640,6 +655,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -788,6 +806,9 @@
   .border-green-500 {
     border-color: var(--color-green-500);
   }
+  .border-green-600 {
+    border-color: var(--color-green-600);
+  }
   .border-indigo-50 {
     border-color: var(--color-indigo-50);
   }
@@ -933,6 +954,9 @@
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
   }
+  .py-1 {
+    padding-block: calc(var(--spacing) * 1);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -956,6 +980,27 @@
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
+  }
+  .pr-1 {
+    padding-right: calc(var(--spacing) * 1);
+  }
+  .pr-5 {
+    padding-right: calc(var(--spacing) * 5);
+  }
+  .pr-7 {
+    padding-right: calc(var(--spacing) * 7);
+  }
+  .pr-10 {
+    padding-right: calc(var(--spacing) * 10);
+  }
+  .pr-14 {
+    padding-right: calc(var(--spacing) * 14);
+  }
+  .pr-16 {
+    padding-right: calc(var(--spacing) * 16);
+  }
+  .pl-1 {
+    padding-left: calc(var(--spacing) * 1);
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
@@ -994,6 +1039,9 @@
   }
   .text-\[\#818187\] {
     color: #818187;
+  }
+  .text-\[\#DADCDC\] {
+    color: #DADCDC;
   }
   .text-\[\#FFB762\] {
     color: #FFB762;
@@ -1094,6 +1142,11 @@
       width: 0%;
     }
   }
+  .md\:w-\[2\] {
+    @media (width >= 48rem) {
+      width: 2;
+    }
+  }
   .md\:w-\[40\%\] {
     @media (width >= 48rem) {
       width: 40%;
@@ -1112,6 +1165,16 @@
   .md\:w-\[100\%\] {
     @media (width >= 48rem) {
       width: 100%;
+    }
+  }
+  .md\:w-\[230px\] {
+    @media (width >= 48rem) {
+      width: 230px;
+    }
+  }
+  .md\:w-\[270px\] {
+    @media (width >= 48rem) {
+      width: 270px;
     }
   }
   .md\:w-\[450px\] {
